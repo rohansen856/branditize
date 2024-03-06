@@ -1,0 +1,40 @@
+@font-face {
+    font-family: anurati;
+    src: url("../assets/fonts/Anurati-Regular.otf");
+}
+
+.animate-gradient {
+    background-image: linear-gradient(to left, #2af598, #009efd, #2af598);
+    background-size: 200% 100%;
+    animation: gradientAnimation 2s alternate infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 100% 0%;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.music::after {
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background-size: 100%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(50px);
+    z-index: -100;
+}
+
+.music::after {
+    background: linear-gradient(45deg, #1f51ff, #228b22);
+}
+
+.anurati {
+    font-family: anurati;
+}
