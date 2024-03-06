@@ -2,7 +2,6 @@
 
 import Image from "next/image"
 
-import { Separator } from "@/components/ui/separator"
 import { Boxes } from "@/components/bg-boxes"
 import { CallButton } from "@/components/call-button"
 import { Card } from "@/components/card"

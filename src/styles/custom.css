@@ -3,6 +3,11 @@
     src: url("../assets/fonts/Anurati-Regular.otf");
 }
 
+@font-face {
+    font-family: blanka;
+    src: url("../assets/fonts/Blanka-Regular.otf");
+}
+
 .animate-gradient {
     background-image: linear-gradient(to left, #2af598, #009efd, #2af598);
     background-size: 200% 100%;
@@ -37,4 +42,8 @@
 
 .anurati {
     font-family: anurati;
+}
+
+.blanka {
+    font-family: blanka;
 }
